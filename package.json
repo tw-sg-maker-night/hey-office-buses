@@ -1,0 +1,16 @@
+{
+  "name": "hey-office-buses",
+  "version": "1.0.0",
+  "description": "",
+  "main": "handler.js",
+  "directories": {
+    "doc": "docs"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Col Harris",
+  "license": "ISC",
+  "dependencies": {
+  }
+}
