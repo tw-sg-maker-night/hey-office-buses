@@ -1,0 +1,37 @@
+{
+  "odata.metadata": "http://datamall2.mytransport.sg/ltaodataservice/$metadata#BusArrival/@Element",
+  "BusStopID": "83111",
+  "Services": [
+    {
+      "ServiceNo": "15",
+      "Status": "In Operation",
+      "Operator": "SBST",
+      "OriginatingID": "77009",
+      "TerminatingID": "77009",
+      "NextBus": {
+        "EstimatedArrival": "2016-07-05T07:01:50+00:00",
+        "Latitude": "1.32051",
+        "Longitude": "103.9049565",
+        "VisitNumber": "1",
+        "Load": "Standing Available",
+        "Feature": "WAB"
+      },
+      "SubsequentBus": {
+        "EstimatedArrival": "2016-07-05T07:10:03+00:00",
+        "Latitude": "1.3076501666666667",
+        "Longitude": "103.912812",
+        "VisitNumber": "1",
+        "Load": "Seats Available",
+        "Feature": "WAB"
+      },
+      "SubsequentBus3": {
+        "EstimatedArrival": "2016-07-05T07:22:44+00:00",
+        "Latitude": "1.308147",
+        "Longitude": "103.91269616666666",
+        "VisitNumber": "1",
+        "Load": "Seats Available",
+        "Feature": "WAB"
+      }
+    }
+  ]
+}

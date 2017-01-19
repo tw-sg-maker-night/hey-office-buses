@@ -1,0 +1,5 @@
+{
+  "odata.metadata": "http://datamall2.mytransport.sg/ltaodataservice/$metadata#BusArrival/@Element",
+  "BusStopID": "83111",
+  "Services": []
+}

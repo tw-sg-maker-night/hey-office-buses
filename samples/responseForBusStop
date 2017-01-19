@@ -1,0 +1,471 @@
+{
+  "odata.metadata": "http://datamall2.mytransport.sg/ltaodataservice/$metadata#BusArrival/@Element",
+  "BusStopID": "83111",
+  "Services": [
+    {
+      "ServiceNo": "15",
+      "Status": "In Operation",
+      "Operator": "SBST",
+      "OriginatingID": "77009",
+      "TerminatingID": "77009",
+      "NextBus": {
+        "EstimatedArrival": "2016-07-05T07:01:50+00:00",
+        "Latitude": "1.32051",
+        "Longitude": "103.9049565",
+        "VisitNumber": "1",
+        "Load": "Standing Available",
+        "Feature": "WAB"
+      },
+      "SubsequentBus": {
+        "EstimatedArrival": "2016-07-05T07:10:03+00:00",
+        "Latitude": "1.3076501666666667",
+        "Longitude": "103.912812",
+        "VisitNumber": "1",
+        "Load": "Seats Available",
+        "Feature": "WAB"
+      },
+      "SubsequentBus3": {
+        "EstimatedArrival": "2016-07-05T07:22:44+00:00",
+        "Latitude": "1.308147",
+        "Longitude": "103.91269616666666",
+        "VisitNumber": "1",
+        "Load": "Standing Available",
+        "Feature": "WAB"
+      }
+    },
+    {
+      "ServiceNo": "21",
+      "Status": "In Operation",
+      "Operator": "SBST",
+      "OriginatingID": "52499",
+      "TerminatingID": "77009",
+      "NextBus": {
+        "EstimatedArrival": "2016-07-05T07:21:25+00:00",
+        "Latitude": "1.3155451666666667",
+        "Longitude": "103.8643165",
+        "VisitNumber": "1",
+        "Load": "Seats Available",
+        "Feature": "WAB"
+      },
+      "SubsequentBus": {
+        "EstimatedArrival": "2016-07-05T07:31:02+00:00",
+        "Latitude": "1.3192901666666668",
+        "Longitude": "103.8493945",
+        "VisitNumber": "1",
+        "Load": "Seats Available",
+        "Feature": "WAB"
+      },
+      "SubsequentBus3": {
+        "EstimatedArrival": "",
+        "Latitude": "",
+        "Longitude": "",
+        "VisitNumber": "",
+        "Load": "",
+        "Feature": ""
+      }
+    },
+    {
+      "ServiceNo": "25",
+      "Status": "In Operation",
+      "Operator": "SBST",
+      "OriginatingID": "84009",
+      "TerminatingID": "54009",
+      "NextBus": {
+        "EstimatedArrival": "2016-07-05T07:07:00+00:00",
+        "Latitude": "1.3196073333333334",
+        "Longitude": "103.91443683333334",
+        "VisitNumber": "1",
+        "Load": "Seats Available",
+        "Feature": "WAB"
+      },
+      "SubsequentBus": {
+        "EstimatedArrival": "2016-07-05T07:19:11+00:00",
+        "Latitude": "0",
+        "Longitude": "0",
+        "VisitNumber": "1",
+        "Load": "Seats Available",
+        "Feature": "WAB"
+      },
+      "SubsequentBus3": {
+        "EstimatedArrival": "2016-07-05T07:30:11+00:00",
+        "Latitude": "0",
+        "Longitude": "0",
+        "VisitNumber": "1",
+        "Load": "Seats Available",
+        "Feature": "WAB"
+      }
+    },
+    {
+      "ServiceNo": "51",
+      "Status": "In Operation",
+      "Operator": "SBST",
+      "OriginatingID": "28009",
+      "TerminatingID": "64009",
+      "NextBus": {
+        "EstimatedArrival": "2016-07-05T07:01:08+00:00",
+        "Latitude": "1.3209475",
+        "Longitude": "103.90496783333333",
+        "VisitNumber": "1",
+        "Load": "Seats Available",
+        "Feature": "WAB"
+      },
+      "SubsequentBus": {
+        "EstimatedArrival": "2016-07-05T07:20:15+00:00",
+        "Latitude": "1.3072953333333333",
+        "Longitude": "103.86251316666667",
+        "VisitNumber": "1",
+        "Load": "Seats Available",
+        "Feature": "WAB"
+      },
+      "SubsequentBus3": {
+        "EstimatedArrival": "2016-07-05T07:32:30+00:00",
+        "Latitude": "1.2900981666666667",
+        "Longitude": "103.84812483333333",
+        "VisitNumber": "1",
+        "Load": "Seats Available",
+        "Feature": "WAB"
+      }
+    },
+    {
+      "ServiceNo": "55",
+      "Status": "In Operation",
+      "Operator": "SBST",
+      "OriginatingID": "53009",
+      "TerminatingID": "53009",
+      "NextBus": {
+        "EstimatedArrival": "2016-07-05T07:14:48+00:00",
+        "Latitude": "1.3084233333333333",
+        "Longitude": "103.92449166666667",
+        "VisitNumber": "1",
+        "Load": "Seats Available",
+        "Feature": "WAB"
+      },
+      "SubsequentBus": {
+        "EstimatedArrival": "2016-07-05T07:29:46+00:00",
+        "Latitude": "1.3136561666666666",
+        "Longitude": "103.906697",
+        "VisitNumber": "1",
+        "Load": "Seats Available",
+        "Feature": "WAB"
+      },
+      "SubsequentBus3": {
+        "EstimatedArrival": "2016-07-05T07:40:34+00:00",
+        "Latitude": "1.3382901666666667",
+        "Longitude": "103.89583833333333",
+        "VisitNumber": "1",
+        "Load": "Seats Available",
+        "Feature": "WAB"
+      }
+    },
+    {
+      "ServiceNo": "60",
+      "Status": "In Operation",
+      "Operator": "SBST",
+      "OriginatingID": "82009",
+      "TerminatingID": "82009",
+      "NextBus": {
+        "EstimatedArrival": "2016-07-05T07:07:00+00:00",
+        "Latitude": "0",
+        "Longitude": "0",
+        "VisitNumber": "1",
+        "Load": "Seats Available",
+        "Feature": "WAB"
+      },
+      "SubsequentBus": {
+        "EstimatedArrival": "2016-07-05T07:10:19+00:00",
+        "Latitude": "0",
+        "Longitude": "0",
+        "VisitNumber": "1",
+        "Load": "Seats Available",
+        "Feature": "WAB"
+      },
+      "SubsequentBus3": {
+        "EstimatedArrival": "2016-07-05T07:16:19+00:00",
+        "Latitude": "0",
+        "Longitude": "0",
+        "VisitNumber": "1",
+        "Load": "Seats Available",
+        "Feature": "WAB"
+      }
+    },
+    {
+      "ServiceNo": "61",
+      "Status": "In Operation",
+      "Operator": "SMRT",
+      "OriginatingID": "82009",
+      "TerminatingID": "43009",
+      "NextBus": {
+        "EstimatedArrival": "2016-07-05T07:05:29+00:00",
+        "Latitude": "0",
+        "Longitude": "0",
+        "VisitNumber": "1",
+        "Load": "Seats Available",
+        "Feature": ""
+      },
+      "SubsequentBus": {
+        "EstimatedArrival": "2016-07-05T07:16:29+00:00",
+        "Latitude": "0",
+        "Longitude": "0",
+        "VisitNumber": "1",
+        "Load": "Seats Available",
+        "Feature": "WAB"
+      },
+      "SubsequentBus3": {
+        "EstimatedArrival": "2016-07-05T07:27:29+00:00",
+        "Latitude": "0",
+        "Longitude": "0",
+        "VisitNumber": "1",
+        "Load": "Seats Available",
+        "Feature": "WAB"
+      }
+    },
+    {
+      "ServiceNo": "63",
+      "Status": "In Operation",
+      "Operator": "SBST",
+      "OriginatingID": "82009",
+      "TerminatingID": "82009",
+      "NextBus": {
+        "EstimatedArrival": "2016-07-05T07:00:14+00:00",
+        "Latitude": "1.323671",
+        "Longitude": "103.905328",
+        "VisitNumber": "1",
+        "Load": "Seats Available",
+        "Feature": "WAB"
+      },
+      "SubsequentBus": {
+        "EstimatedArrival": "2016-07-05T07:07:54+00:00",
+        "Latitude": "0",
+        "Longitude": "0",
+        "VisitNumber": "1",
+        "Load": "Seats Available",
+        "Feature": "WAB"
+      },
+      "SubsequentBus3": {
+        "EstimatedArrival": "2016-07-05T07:19:54+00:00",
+        "Latitude": "0",
+        "Longitude": "0",
+        "VisitNumber": "1",
+        "Load": "Seats Available",
+        "Feature": "WAB"
+      }
+    },
+    {
+      "ServiceNo": "63M",
+      "Status": "In Operation",
+      "Operator": "SBST",
+      "OriginatingID": "82009",
+      "TerminatingID": "82009",
+      "NextBus": {
+        "EstimatedArrival": "2016-07-05T07:13:23+00:00",
+        "Latitude": "0",
+        "Longitude": "0",
+        "VisitNumber": "1",
+        "Load": "Seats Available",
+        "Feature": "WAB"
+      },
+      "SubsequentBus": {
+        "EstimatedArrival": "2016-07-05T07:24:23+00:00",
+        "Latitude": "0",
+        "Longitude": "0",
+        "VisitNumber": "1",
+        "Load": "Seats Available",
+        "Feature": "WAB"
+      },
+      "SubsequentBus3": {
+        "EstimatedArrival": "2016-07-05T07:35:23+00:00",
+        "Latitude": "0",
+        "Longitude": "0",
+        "VisitNumber": "1",
+        "Load": "Seats Available",
+        "Feature": "WAB"
+      }
+    },
+    {
+      "ServiceNo": "854",
+      "Status": "In Operation",
+      "Operator": "SMRT",
+      "OriginatingID": "84009",
+      "TerminatingID": "59009",
+      "NextBus": {
+        "EstimatedArrival": "2016-07-05T07:01:20+00:00",
+        "Latitude": "1.321225",
+        "Longitude": "103.90503433333333",
+        "VisitNumber": "1",
+        "Load": "Seats Available",
+        "Feature": ""
+      },
+      "SubsequentBus": {
+        "EstimatedArrival": "2016-07-05T07:08:25+00:00",
+        "Latitude": "1.3208363333333333",
+        "Longitude": "103.91787366666667",
+        "VisitNumber": "1",
+        "Load": "Seats Available",
+        "Feature": ""
+      },
+      "SubsequentBus3": {
+        "EstimatedArrival": "2016-07-05T07:12:56+00:00",
+        "Latitude": "0",
+        "Longitude": "0",
+        "VisitNumber": "1",
+        "Load": "Seats Available",
+        "Feature": "WAB"
+      }
+    },
+    {
+      "ServiceNo": "93",
+      "Status": "In Operation",
+      "Operator": "SBST",
+      "OriginatingID": "82009",
+      "TerminatingID": "14009",
+      "NextBus": {
+        "EstimatedArrival": "2016-07-05T07:05:45+00:00",
+        "Latitude": "0",
+        "Longitude": "0",
+        "VisitNumber": "1",
+        "Load": "Seats Available",
+        "Feature": "WAB"
+      },
+      "SubsequentBus": {
+        "EstimatedArrival": "2016-07-05T07:10:43+00:00",
+        "Latitude": "0",
+        "Longitude": "0",
+        "VisitNumber": "1",
+        "Load": "Seats Available",
+        "Feature": ""
+      },
+      "SubsequentBus3": {
+        "EstimatedArrival": "2016-07-05T07:28:43+00:00",
+        "Latitude": "0",
+        "Longitude": "0",
+        "VisitNumber": "1",
+        "Load": "Seats Available",
+        "Feature": "WAB"
+      }
+    },
+    {
+      "ServiceNo": "94",
+      "Status": "In Operation",
+      "Operator": "SBST",
+      "OriginatingID": "82009",
+      "TerminatingID": "82009",
+      "NextBus": {
+        "EstimatedArrival": "2016-07-05T07:21:49+00:00",
+        "Latitude": "0",
+        "Longitude": "0",
+        "VisitNumber": "1",
+        "Load": "Seats Available",
+        "Feature": "WAB"
+      },
+      "SubsequentBus": {
+        "EstimatedArrival": "2016-07-05T07:35:49+00:00",
+        "Latitude": "0",
+        "Longitude": "0",
+        "VisitNumber": "1",
+        "Load": "Seats Available",
+        "Feature": "WAB"
+      },
+      "SubsequentBus3": {
+        "EstimatedArrival": "",
+        "Latitude": "",
+        "Longitude": "",
+        "VisitNumber": "",
+        "Load": "",
+        "Feature": ""
+      }
+    },
+    {
+      "ServiceNo": "966",
+      "Status": "In Operation",
+      "Operator": "SMRT",
+      "OriginatingID": "46009",
+      "TerminatingID": "46009",
+      "NextBus": {
+        "EstimatedArrival": "2016-07-05T07:01:55+00:00",
+        "Latitude": "1.3203841666666667",
+        "Longitude": "103.90495466666667",
+        "VisitNumber": "1",
+        "Load": "Seats Available",
+        "Feature": "WAB"
+      },
+      "SubsequentBus": {
+        "EstimatedArrival": "2016-07-05T07:17:06+00:00",
+        "Latitude": "1.3057245",
+        "Longitude": "103.90989466666667",
+        "VisitNumber": "1",
+        "Load": "Seats Available",
+        "Feature": "WAB"
+      },
+      "SubsequentBus3": {
+        "EstimatedArrival": "2016-07-05T07:29:49+00:00",
+        "Latitude": "1.3205723333333332",
+        "Longitude": "103.8805645",
+        "VisitNumber": "1",
+        "Load": "Seats Available",
+        "Feature": "WAB"
+      }
+    },
+    {
+      "ServiceNo": "2N",
+      "Status": "Not In Operation",
+      "Operator": "SBST",
+      "OriginatingID": "02099",
+      "TerminatingID": "75109",
+      "NextBus": {
+        "EstimatedArrival": "",
+        "Latitude": "",
+        "Longitude": "",
+        "VisitNumber": "",
+        "Load": "",
+        "Feature": ""
+      },
+      "SubsequentBus": {
+        "EstimatedArrival": "",
+        "Latitude": "",
+        "Longitude": "",
+        "VisitNumber": "",
+        "Load": "",
+        "Feature": ""
+      },
+      "SubsequentBus3": {
+        "EstimatedArrival": "",
+        "Latitude": "",
+        "Longitude": "",
+        "VisitNumber": "",
+        "Load": "",
+        "Feature": ""
+      }
+    },
+    {
+      "ServiceNo": "NR7",
+      "Status": "Not In Operation",
+      "Operator": "SMRT",
+      "OriginatingID": "02099",
+      "TerminatingID": "98029",
+      "NextBus": {
+        "EstimatedArrival": "",
+        "Latitude": "",
+        "Longitude": "",
+        "VisitNumber": "",
+        "Load": "",
+        "Feature": ""
+      },
+      "SubsequentBus": {
+        "EstimatedArrival": "",
+        "Latitude": "",
+        "Longitude": "",
+        "VisitNumber": "",
+        "Load": "",
+        "Feature": ""
+      },
+      "SubsequentBus3": {
+        "EstimatedArrival": "",
+        "Latitude": "",
+        "Longitude": "",
+        "VisitNumber": "",
+        "Load": "",
+        "Feature": ""
+      }
+    }
+  ]
+}
