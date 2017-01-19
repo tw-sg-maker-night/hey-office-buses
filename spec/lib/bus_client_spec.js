@@ -7,18 +7,18 @@ const serviceNumber = 15
 
 describe('get next bus for specific stop and service number', () => {
 
-  beforeEach(function() {
+  beforeEach(() => {
     nock('http://datamall2.mytransport.sg')
       .get('/ltaodataservice/BusArrival?BusStopID=' + stopNumber + '&ServiceNo=' + serviceNumber)
-      .replyWithFile(200, __dirname + '/../../samples/responseForBus')
-  });
+      .replyWithFile(200, __dirname + '/../../samples/responseForBus.json')
+  })
 
   it('should return a single service', (done) => {
     busClient.getServices(stopNumber, serviceNumber).then(services => {
       expect(services.length).toBe(1)
       done()
-    });
-  });
+    })
+  })
 
   it('should return the correct estimated arrival time', (done) => {
     busClient.getServices(stopNumber, serviceNumber).then(services => {

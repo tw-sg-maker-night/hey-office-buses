@@ -21,7 +21,7 @@ module.exports.nextBus = (event, context, callback) => {
     var busNumber = event.currentIntent.slots.BusNumber || process.env.DEFAULT_BUS_NUMBER
     busClient.getServices(process.env.DEFAULT_BUS_STOP, busNumber).then(service => {
         var nextBus = service[0].getNextAvailableBus()
-        callback(null, responseWithContent("The next bus arrives at " + nextBus.estimatedArrival))
+        callback(null, responseWithContent("The next bus arrives in " + nextBus.timeUntilArrival()))
     }).catch(err => {
         callback(null, responseWithContent("Sorry I couldn't get the next bus time. Please try again later."))
     })
