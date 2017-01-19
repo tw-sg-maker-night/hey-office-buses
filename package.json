@@ -3,17 +3,26 @@
   "version": "1.0.0",
   "description": "",
   "main": "handler.js",
-  "directories": {
-    "doc": "docs"
-  },
+  "directories": {},
   "scripts": {
-    "test": "./node_modules/.bin/jasmine-node spec"
+    "test": "jasmine-node spec",
+    "lint": "jshint **/*.js",
+    "pretest": "npm run lint"
   },
   "author": "Col Harris",
   "license": "ISC",
   "dependencies": {},
   "devDependencies": {
     "jasmine-node": "^1.14.5",
+    "jshint": "^2.9.4",
     "nock": "^9.0.2"
-  }
+  },
+  "jshintConfig": {
+    "node": true,
+    "asi": true,
+    "esversion": 6
+  },
+  "files": [
+    "lib"
+  ]
 }
