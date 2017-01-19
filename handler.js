@@ -1,45 +1,31 @@
 'use strict';
 
 const util = require('util');
-const getServices = require('./httpClient');
+const getServices = require('./lib/bus_client');
+
+function responseWithContent(content) {
+    return {
+      sessionAttributes: {},
+      dialogAction: {
+        type: "Close",
+        fulfillmentState: "Fulfilled",
+        message: {
+          contentType: "PlainText",
+          content: content
+        }
+      }
+    };
+}
 
 module.exports.nextBus = (event, context, callback) => {
-
   console.log("event = " + util.inspect(event, false, null));
-  console.log("context = " + util.inspect(context, false, null));
 
-  getServices('03041', '186').then(service => {
+  var busNumber = event.currentIntent.slots.BusNumber || '186';
+  getServices('03041', busNumber).then(service => {
     var nextBus = service[0].getNextAvailableBus();
-    console.log("nextBus = " + nextBus);
-
-    const response = {
-      sessionAttributes: {},
-      dialogAction: {
-        type: "Close",
-        fulfillmentState: "Fulfilled",
-        message: {
-          contentType: "PlainText",
-          content: "The next bus arrives at " + nextBus.estimatedArrival
-        }
-      }
-    };
-
-    callback(null, response);
+    callback(null, responseWithContent("The next bus arrives at " + nextBus.estimatedArrival));
   }).catch(err => {
-
-    const response = {
-      sessionAttributes: {},
-      dialogAction: {
-        type: "Close",
-        fulfillmentState: "Fulfilled",
-        message: {
-          contentType: "PlainText",
-          content: "Face palm!"
-        }
-      }
-    };
-
-    callback(null, response);
+    callback(null, responseWithContent("Sorry I couldn't get the next bus time. Please try again later."));
   });
 
 };
