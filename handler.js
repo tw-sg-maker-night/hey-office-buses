@@ -3,6 +3,10 @@
 var util = require('util')
 var busClient = require('./lib/bus_client')
 
+function inspect(obj) {
+  return util.inspect(obj, false, null)
+}
+
 function responseWithContent(content) {
     return {
         sessionAttributes: {},
@@ -18,6 +22,7 @@ function responseWithContent(content) {
 }
 
 module.exports.nextBus = (event, context, callback) => {
+    console.log("Event = " + inspect(event))
     var busNumber = event.currentIntent.slots.BusNumber || process.env.DEFAULT_BUS_NUMBER
     busClient.getServices(process.env.DEFAULT_BUS_STOP, busNumber).then(service => {
         var nextBus = service[0].getNextAvailableBus()
